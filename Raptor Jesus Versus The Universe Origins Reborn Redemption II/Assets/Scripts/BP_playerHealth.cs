@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class BP_playerHealth : MonoBehaviour {
 
+	public int health = 3;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -16,6 +18,11 @@ public class BP_playerHealth : MonoBehaviour {
 		{
 			//Player dies
 			Debug.Log("Omae wa mo shindeiru");
+			Die();
+		}
+
+		if(health == 0)
+		{
 			Die();
 		}
 	}

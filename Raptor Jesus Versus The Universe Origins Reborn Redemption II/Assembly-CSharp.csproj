@@ -61,7 +61,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\BP_cameraSystem.cs" />
+    <Compile Include="Assets\Scripts\BP_enemyIncScore.cs" />
+    <Compile Include="Assets\Scripts\BP_enemyMovement.cs" />
+    <Compile Include="Assets\Scripts\BP_playerHealth.cs" />
+    <Compile Include="Assets\Scripts\BP_playerMovement.cs" />
+    <Compile Include="Assets\Scripts\BP_playerScore.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Student/Desktop/GameJamGame/Raptor Jesus Versus The Universe Origins Reborn Redemption II/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
